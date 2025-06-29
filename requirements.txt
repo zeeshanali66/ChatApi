@@ -1,0 +1,12 @@
+fastapi==0.95.0
+uvicorn==0.20.0
+langchain==0.0.132
+gradio==3.10.0
+transformers==4.24.0
+requests==2.26.0
+PyPDF2==1.26.0
+chromadb==0.3.18
+langchain_community==0.0.1  # if the modules you are using are from langchain_community
+langchain_groq==0.0.1      # If the ChatGroq package is from the community
+uvicorn
+gunicorn
