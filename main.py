@@ -10,8 +10,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_groq import ChatGroq
 
 # === CONFIG ===
-PDF_FOLDER = 'D:/University/FYP/Code/ChatApi/pdfs'  # Path to your PDFs folder
-DB_PATH = 'D:/University/FYP/Code/ChatApi/chroma_db'  # Path to store vector DB
+PDF_FOLDER = './pdfs'  # Path to your PDFs folder
+DB_PATH = './chroma_db'  # Path to store vector DB
 EMBED_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
 GROQ_MODEL = 'llama3-70b-8192'  # Change to your model, "llama-3.3-70b-versatile" is not official
 
