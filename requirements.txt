@@ -11,3 +11,4 @@ huggingface_hub
 python-dotenv
 uvicorn
 gunicorn
+sentence-transformers
